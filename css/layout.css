@@ -1,0 +1,256 @@
+/* NAVIGATION MENU */
+
+nav {
+	margin-top: 50px;
+	width:100%;
+/*	background-color:white;*/
+	text-align:center;
+/*	border-bottom: 1px solid white;*/
+/*	opacity: 0.4;*/
+}
+
+
+nav ul li{
+	display:inline-block;
+	list-style: none;
+	margin-right: 20px;
+	letter-spacing: 5px;
+	color:white;
+
+}
+
+nav ul li a{
+
+	text-decoration: none;
+	color:white;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family:sans-serif;
+	position:relative;
+	padding:10px;
+
+}
+
+
+nav ul li a:hover{
+	border-top: 5px solid white;
+	padding:10px;
+}
+
+/* DROPDOWN MENU */
+
+nav ul ul {
+	display:none;
+	position:relative;
+}
+
+nav ul li:hover ul{
+	display:block;
+	width:100px;
+	text-align:left;
+	position:absolute;
+	line-height: 40px;
+	padding: 20px;
+	color: black;
+}
+
+/* MAIN CONTENT */
+
+body {
+
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5em;
+	margin-bottom: -20px;
+	color:white;
+}
+
+h2 {
+	text-align:right;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: lighter;
+	font-size: 3em;
+	margin-right: 60px;
+	color:white;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	color:white;
+}
+
+#homepageImage {
+	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room.gif') no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+#homepage {
+	text-align: center;
+	margin-top: 150px;
+	position:relative;
+	z-index:1;
+}
+
+#homepage a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	color:white;
+	padding:10px 30px 10px 30px;
+	border: 1px solid white;
+	border-radius: 2px;
+}
+
+#homepage a:hover {
+	background-color: white;
+	color:black;
+}
+
+#aboutImage {
+	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+#workImage {
+	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+#contactImage {
+	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.contentBox{
+	background-color: white;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	padding:25px;
+	overflow: scroll;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 13px;
+	line-height: 20px;
+/*	border: 3px solid white;*/
+	border-radius: 4px;
+}
+
+.contentBox img{
+	width:490px;
+	height:240px;
+}
+
+.contentBox p {
+	color:white;
+	font-weight: bold;
+}
+
+
+#artGallery img{
+	float:left;
+	width:245px;
+	margin:2px;
+}
+
+#designGallery img{
+	float:right;
+	width:245px;
+	margin:2px;
+}
+
+
+
+#about p{
+	font-size: 15px;
+	font-family:sans-serif;
+	text-align: left;
+	line-height: 20px;
+}
+
+
+footer {
+	clear:both;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 400px;
+    background: #FFF;
+}
+
+/*.contact-form label {
+    display: block;
+    margin: 0px 0px 5px;
+}*/
+
+
+.contact-form label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: lighter;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea, .contact-form select{
+    border: 1px solid #CCC;
+    color: #888;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 1 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/*.contact-form select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height:15px;
+}*/
+.contact-form textarea{
+    height:90px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.contact-form .button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+.contact-form .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
