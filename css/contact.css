@@ -172,7 +172,7 @@ h4 {
 #about p{
   font-size: 15px;
   font-family:sans-serif;
-  text-align: left;
+  text-align: center;
   line-height: 20px;
 }
 
@@ -299,16 +299,20 @@ button{
   font-family: sans-serif;
  font-weight: lighter;
  font-size: 26px;
- padding-top: 20px;
+ padding-top: -10px;
  /*padding-bottom: 40px;*/
 }
 
-.address{
-  margin: 0 auto;
-}
-.address ul li{
+/*.address p{
+
+  text-align: center;
+}*/
+
+p.address {
   font-size: sans-serif;
   font-weight: lighter;
   font-size: 16px;
-  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+
 }
