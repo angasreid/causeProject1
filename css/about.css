@@ -55,6 +55,11 @@ nav ul li:hover ul{
 
 /* MAIN CONTENT */
 
+.article {
+	float:left;
+	display:block;
+}
+
 body {
 
 }
