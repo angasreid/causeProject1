@@ -20,7 +20,6 @@ nav ul li{
 }
 
 nav ul li a{
-
 	text-decoration: none;
 	color:white;
 	font-weight: lighter;
@@ -83,7 +82,7 @@ h4 {
 }
 
 #homepageImage {
-	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room.gif') no-repeat center center fixed;
+	background: url('http://goodmoneying.com/wp-content/uploads/2013/08/freedom.jpg') no-repeat center center fixed;
 	background-size: cover;
 
 }
@@ -112,18 +111,18 @@ h4 {
 }
 
 #aboutImage {
-	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+	background: url('http://goodmoneying.com/wp-content/uploads/2013/08/freedom.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
 
-#workImage {
-	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+#blogImage {
+	background: url('http://goodmoneying.com/wp-content/uploads/2013/08/freedom.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
 #contactImage {
-	background: url('file:///Users/darleneportades/Desktop/personal-website/images/room1.png') no-repeat center center fixed;
+	background: url('http://goodmoneying.com/wp-content/uploads/2013/08/freedom.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
