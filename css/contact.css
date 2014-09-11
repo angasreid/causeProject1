@@ -268,12 +268,16 @@ button{
   padding: 10px 20px;
   border-color: #fed136;
   border-radius: 5px;
-  text-transform: uppercase;
-  font-family: sans-serif, Montserrat,"Helvetica Neue", Helvetica,Arial;
+  font-family: sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: lighter;
   color: #fff;
   background-color: #fed136;
+}
+
+button a:hover{
+  border-bottom: solid 2px black;
+  border-right: solid 2px black;
 }
 
 .form-control{
