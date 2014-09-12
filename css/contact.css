@@ -172,7 +172,11 @@ h4 {
 #about p{
   font-size: 15px;
   font-family:sans-serif;
+<<<<<<< HEAD
+  text-align: left;
+=======
   text-align: center;
+>>>>>>> 9991967de33331d965b52ab7332433dceaf69cbd
   line-height: 20px;
 }
 
@@ -302,6 +306,26 @@ button a:hover{
   box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+<<<<<<< HEAD
+}
+
+.section-subheading-text-muted{
+  font-family: sans-serif;
+ font-weight: lighter;
+ font-size: 26px;
+ padding-top: 20px;
+ /*padding-bottom: 40px;*/
+}
+
+.address{
+  margin: 0 auto;
+}
+.address ul li{
+  font-size: sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  list-style: none;
+=======
 }
 
 .section-subheading-text-muted{
@@ -324,6 +348,7 @@ p.address {
   text-align: center;
   margin: 0 auto;
 
+>>>>>>> 9991967de33331d965b52ab7332433dceaf69cbd
 }
 
 /**************Footer**************/
