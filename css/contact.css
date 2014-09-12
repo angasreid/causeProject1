@@ -264,6 +264,10 @@ input{
 
 }
 
+
+li {
+  list-style-type: none;
+}
 button{
   padding: 10px 20px;
   border-color: #fed136;
